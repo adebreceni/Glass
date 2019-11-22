@@ -1,5 +1,5 @@
 #include <benchmark/benchmark.h>
-#include "bit_utils.h"
+#include "../bit_utils.h"
 
 static void Arguments(benchmark::internal::Benchmark* bm){
 	unsigned k_list[9] = {1, 2, 4, 7, 16, 21, 32, 47, 64};

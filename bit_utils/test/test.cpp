@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "bit_utils.h"
+#include "../bit_utils.h"
 
 class FindTest: public ::testing::TestWithParam<int(*)(const u32&,const u32&,unsigned)>{};
 
